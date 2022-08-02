@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.todotrial">
+
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Todotrial">
+        <activity
+            android:name=".stepcounter"
+            android:exported="false" />
+        <activity
+            android:name=".addpersoneltodo"
+            android:exported="false" />
+        <activity
+            android:name=".personeltodo"
+            android:exported="false" />
+        <activity
+            android:name=".addtodo"
+            android:exported="false" />
+        <activity
+            android:name=".todo"
+            android:exported="false" />
+        <activity
+            android:name=".sports"
+            android:exported="false" />
+        <activity
+            android:name=".exercise"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Todotrial">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

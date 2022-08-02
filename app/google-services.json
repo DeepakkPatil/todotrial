@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "939557007189",
+    "project_id": "todotrial-68e52",
+    "storage_bucket": "todotrial-68e52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939557007189:android:1924df8390d6118286c9dc",
+        "android_client_info": {
+          "package_name": "com.example.todotrial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939557007189-kbckqf3f33k9pta5i9d20ivvfe1elum5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIOhAqAS7p0VGyzHROxS3Cm2wjA99oXqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939557007189-kbckqf3f33k9pta5i9d20ivvfe1elum5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
